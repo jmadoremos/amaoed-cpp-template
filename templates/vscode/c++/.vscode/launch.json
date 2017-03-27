@@ -41,7 +41,7 @@
             "name": "C++ Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "enter program name, for example ${workspaceRoot}/a.out",
+            "program": "${workspaceRoot}/main.exe",
             "processId": "${command:pickProcess}",
             "linux": {
                 "MIMode": "gdb",
