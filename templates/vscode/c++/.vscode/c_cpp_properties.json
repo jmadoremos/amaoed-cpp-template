@@ -25,7 +25,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/Work/mingw/lib/gcc/mingw32/*/include/*"
+                "C:/mingw/lib/gcc/mingw32/*/include/*"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
