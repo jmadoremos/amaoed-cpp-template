@@ -14,5 +14,7 @@ This currently supports:
 		- Used as starter kit for JavaScript Development
 
 # History Logs:
+* 2018-01-30
+	- Added draft for vscode > jsdev
 * 2017-03-27
 	- Added vscode > c++ support
