@@ -4,11 +4,14 @@ This repository contains common templates used in different IDEs that does not h
 This currently supports:
 * Visual Studio Code
 	- C++
+	- JavaScript Development Environment
 
 # Notes:
 * Visual Studio Code
 	* C++
 		- MinGW should be located at the root of drive C:
+	* JavaScript Development Environment
+		- Used as starter kit for JavaScript Development
 
 # History Logs:
 * 2017-03-27
