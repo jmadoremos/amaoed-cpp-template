@@ -21,3 +21,19 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 2. **C/C++** by Microsoft:
 
         ext install C/C++
+
+## Reminders
+
+1. In general sense, you should not modify any of the following:
+
+      * **.vscode/** directory and files within
+
+      * **src/_pause.h** library
+
+      * **.editorconfig** file
+
+      * **.gitignore** file
+
+      * [**CHANGELOG.md**](/#CHANGELOG) file
+
+      * [**README.md**](/#README) file
