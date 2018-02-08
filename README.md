@@ -34,6 +34,6 @@ In general, there should be no reason to modify or delete any of the following:
 
   * **.gitignore** file
 
-  * [**CHANGELOG.md**](/CHANGELOG) file
+  * [**CHANGELOG**](/CHANGELOG.md)
 
-  * [**README.md**](/README) file
+  * [**README**](/README.md)
