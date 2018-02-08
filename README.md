@@ -22,18 +22,18 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
         ext install ms-vscode.cpptools
 
-## Reminders
+## Reminder
 
-1. In general, there should be no reason to modify or delete any of the following:
+In general, there should be no reason to modify or delete any of the following:
 
-      * **.vscode/** directory and files within
+  * **.vscode/** directory and files within
 
-      * **src/_pause.h** library
+  * **src/_pause.h** library
 
-      * **.editorconfig** file
+  * **.editorconfig** file
 
-      * **.gitignore** file
+  * **.gitignore** file
 
-      * [**CHANGELOG.md**](/#CHANGELOG) file
+  * [**CHANGELOG.md**](/CHANGELOG) file
 
-      * [**README.md**](/#README) file
+  * [**README.md**](/README) file
