@@ -16,11 +16,11 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 1. **EditorConfig for VS Code** by EditorConfig:
 
-        ext install EditorConfig
+        ext install EditorConfig.editorconfig
 
 2. **C/C++** by Microsoft:
 
-        ext install C/C++
+        ext install ms-vscode.cpptools
 
 ## Reminders
 
