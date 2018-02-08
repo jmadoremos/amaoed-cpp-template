@@ -1,20 +1,23 @@
-# Templates
-This repository contains common templates used in different IDEs that does not have a default project structure.
+# C++ Programming Language | VS Code
 
-This currently supports:
-* Visual Studio Code
-	- C++
-	- JavaScript Development Environment
+This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
 
-# Notes:
-* Visual Studio Code
-	* C++
-		- MinGW should be located at the root of drive C:
-	* JavaScript Development Environment
-		- Used as starter kit for JavaScript Development
+## Specifications
 
-# History Logs:
-* 2018-01-30
-	- Added draft for vscode > jsdev
-* 2017-03-27
-	- Added vscode > c++ support
+* It needs _MinGW_ installed at **C:/ root directory** in order to work.
+
+* It is specifically configured for **Visual Studio Code** integrated development environment.
+
+* It currently supports only **Windows** operating system.
+
+## Recommended Extensions
+
+The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>+<kbd>P</kbd>, Windows: <kbd>CTRL</kbd>+<kbd>P</kbd> ):
+
+1. **EditorConfig for VS Code** by EditorConfig:
+
+        ext install EditorConfig
+
+2. **C/C++** by Microsoft:
+
+        ext install C/C++
