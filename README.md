@@ -24,7 +24,7 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 ## Reminders
 
-1. In general sense, you should not modify any of the following:
+1. In general, there should be no reason to modify or delete any of the following:
 
       * **.vscode/** directory and files within
 
