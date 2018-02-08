@@ -1,36 +1,36 @@
 {
-    "configurations": [
-        {
-            "name": "Mac",
-            "includePath": [
-                "/usr/include",
-                "/usr/local/include"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            }
-        },
-        {
-            "name": "Linux",
-            "includePath": [
-                "/usr/include",
-                "/usr/local/include"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            }
-        },
-        {
-            "name": "Win32",
-            "includePath": [
-                "C:/mingw/lib/gcc/mingw32/*/include/*"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            }
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "/usr/include",
+        "/usr/local/include"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    },
+    {
+      "name": "Linux",
+      "includePath": [
+        "/usr/include",
+        "/usr/local/include"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    },
+      {
+        "name": "Win32",
+        "includePath": [
+          "C:/mingw/lib/gcc/mingw32/*/include/*"
+        ],
+        "browse": {
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
         }
+      }
     ]
 }
