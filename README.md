@@ -26,14 +26,14 @@ The following are recommended _extensions_ for VS Code ( Mac: <kbd>&#8984;</kbd>
 
 In general, there should be no reason to modify or delete any of the following:
 
-  * **.vscode/** directory and files within
+* **.vscode/** directory and files within
 
-  * **src/_pause.h** library
+* **src/_pause.h** library
 
-  * **.editorconfig** file
+* **.editorconfig** file
 
-  * **.gitignore** file
+* **.gitignore** file
 
-  * [**CHANGELOG**](/CHANGELOG.md)
+* [**CHANGELOG**](/CHANGELOG.md)
 
-  * [**README**](/README.md)
+* [**README**](/README.md)
