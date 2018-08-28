@@ -1,7 +1,7 @@
 {
-  "files.associations": {
-    "iostream": "cpp",
-    "cstdlib": "cpp",
-    "ostream": "cpp"
-  }
+    "files.associations": {
+        "iostream": "cpp",
+        "cstdlib": "cpp",
+        "ostream": "cpp"
+    }
 }
