@@ -1,9 +1,11 @@
 # Change Logs
 
 <dl>
-	<dt>2018-02-08</dt>
-  	<dd>Restructured the repository for quicker setup</dd>
-   <dd>Added editor configuration file for standard IDE changes</dd>
-	<dt>2017-03-27</dt>
-  	<dd>Added vscode > c++ support</dd>
+    <dt>2018-08-28</dt>
+    <dd>Updated the structure of c_cpp_properties.json in compliance with the latest vscode; Updated indentions</dd>
+    <dt>2018-02-08</dt>
+    <dd>Restructured the repository for quicker setup</dd>
+    <dd>Added editor configuration file for standard IDE changes</dd>
+    <dt>2017-03-27</dt>
+    <dd>Added vscode > c++ support</dd>
 </dl>
