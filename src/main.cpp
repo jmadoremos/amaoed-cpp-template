@@ -33,7 +33,7 @@ int main() {
     // Place your code logic after this comment line
     // ***********************************************************
 
-    cout << "Hello World!";
+    cout << "Hello World!" << endl;
 
     // ********************** DO NOT CHANGE **********************
     // Print a new line and ask user for any key before exiting
