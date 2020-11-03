@@ -8,6 +8,8 @@ The instructions defined for this git repository depends on the operating system
 
 * [C++ Programming Language for Windows](./docs/windows.md)
 
+* [C++ Programming Language for Linux](./docs/linux.md)
+
 ## Reminder
 
 In general, there should be no reason to modify or delete any of the following:
