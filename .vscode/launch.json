@@ -36,8 +36,8 @@
                         "ignoreFailures": true
                     }
                 ],
-                "MIDebuggerPath": "gdb.exe",
-                "preLaunchTask": "[g++] Compile for Windows"
+                "preLaunchTask": "[g++] Compile for Windows",
+                "miDebuggerPath": "C:/ProgramData/chocolatey/bin/gdb.exe"
             }
         },
         {
