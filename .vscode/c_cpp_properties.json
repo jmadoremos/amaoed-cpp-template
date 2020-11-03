@@ -7,14 +7,14 @@
                 "/usr/include",
                 "/usr/local/include"
             ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "macFrameworkPath": [
-                "/System/Library/Frameworks",
-                "/Library/Frameworks"
-            ],
             "intelliSenseMode": "clang-x64"
         },
         {
@@ -23,6 +23,7 @@
                 "/usr/include",
                 "/usr/local/include"
             ],
+            "defines": [],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
@@ -32,13 +33,18 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/mingw/lib/gcc/mingw32/*/include/*"
+                "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "gcc-x64"
         }
     ]
 }
