@@ -19,7 +19,9 @@
                         "text": "-enable-pretty-printing",
                         "ignoreFailures": true
                     }
-                ]
+                ],
+                "preLaunchTask": "[g++] Compile for Linux",
+                "miDebuggerPath": "/usr/bin/gdb"
             },
             "osx": {
                 "MIMode": "lldb"
@@ -32,7 +34,9 @@
                         "text": "-enable-pretty-printing",
                         "ignoreFailures": true
                     }
-                ]
+                ],
+                "MIDebuggerPath": "gdb.exe",
+                "preLaunchTask": "[g++] Compile for Windows"
             }
         },
         {
