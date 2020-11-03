@@ -4,8 +4,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "[g++] Compile",
             "type": "shell",
+            "label": "[g++] Compile for Windows",
             "command": "C:/mingw/bin/g++.exe",
             "args": [ "-g", "-o", "main", "src/main.cpp" ],
             "presentation": {
