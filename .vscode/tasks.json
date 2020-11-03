@@ -7,7 +7,7 @@
             "type": "shell",
             "label": "[g++] Compile for Windows",
             "command": "C:/mingw/bin/g++.exe",
-            "args": [ "-g", "-o", "main", "src/main.cpp" ],
+            "args": [ "-g", "-o", "build/main", "src/main.cpp" ],
             "presentation": {
                 "echo": true,
                 "reveal": "always",
