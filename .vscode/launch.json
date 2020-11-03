@@ -9,9 +9,8 @@
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
-            "console": "externalTerminal",
-            "preLaunchTask": "C:/mingw/bin/g++.exe",
-            "miDebuggerPath": "gdb.exe",
+            "environment": [],
+            "externalConsole": false,
             "linux": {
                 "MIMode": "gdb",
                 "setupCommands": [
