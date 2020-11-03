@@ -1,6 +1,11 @@
 # Change Logs
 
 <dl>
+    <dt>2020-11-03</dt>
+    <dd>Added full support for Linux</dd>
+    <dd>Added (untested) partial support for Mac OS.</dd>
+    <dd>Updated documentations with targeted instructions for Windows, Linux and Mac OS</dd>
+    <dd></dd>
     <dt>2019-04-23</dt>
     <dd>Updated vscode configurations to latest version</dd>
     <dt>2018-08-28</dt>
