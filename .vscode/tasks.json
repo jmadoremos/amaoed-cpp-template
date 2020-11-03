@@ -16,6 +16,21 @@
                 "showReuseMessage": true,
                 "clear": false
             }
+        },
+        {
+            "type": "shell",
+            "label": "[g++] Compile for Linux",
+            "command": "/usr/bin/g++",
+            "args": [ "-g", "-o", "build/main", "src/main.cpp" ],
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
         }
     ]
 }
