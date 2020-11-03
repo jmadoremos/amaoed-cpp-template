@@ -44,7 +44,7 @@
             "name": "C++ Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "${workspaceRoot}/main.exe",
+            "program": "${workspaceRoot}/build/main",
             "processId": "${command:pickProcess}",
             "linux": {
                 "MIMode": "gdb",
@@ -54,7 +54,8 @@
                         "text": "-enable-pretty-printing",
                         "ignoreFailures": true
                     }
-                ]
+                ],
+                "miDebuggerPath": "/usr/bin/gdb"
             },
             "osx": {
                 "MIMode": "lldb"
@@ -67,7 +68,8 @@
                         "text": "-enable-pretty-printing",
                         "ignoreFailures": true
                     }
-                ]
+                ],
+                "miDebuggerPath": "C:/ProgramData/chocolatey/bin/gdb.exe"
             }
         }
     ]
