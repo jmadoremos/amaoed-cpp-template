@@ -24,7 +24,8 @@
                 "miDebuggerPath": "/usr/bin/gdb"
             },
             "osx": {
-                "MIMode": "lldb"
+                "MIMode": "lldb",
+                "preLaunchTask": "[clang++] Compile for Mac OS"
             },
             "windows": {
                 "MIMode": "gdb",
