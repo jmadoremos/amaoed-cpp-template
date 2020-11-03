@@ -53,7 +53,7 @@ g++ --version
 
 ### Git
 
-Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike.
+Git focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM while providing appropriate user interfaces for experienced Git users and novices alike.
 
 1. Open any terminal. The `/bin/bash` is the common default shell for Linux.
 
