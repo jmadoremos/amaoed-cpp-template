@@ -107,7 +107,7 @@ code --install-extension visualstudioexptteam.vscodeintellicode --force
 
 code --install-extension EditorConfig.editorconfig --force
 
-code --install-extension ms-vscode.cpptools --force
+code --install-extension ms-vscode.cpptools-extension-pack --force
 ```
 
 > Optionally, execute the following commands to install some non-essential Visual Studio Code extensions for aesthetics.
