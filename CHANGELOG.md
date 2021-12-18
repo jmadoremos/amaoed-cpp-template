@@ -1,6 +1,8 @@
 # Change Logs
 
 <dl>
+    <dt>2021-12-18</dt>
+    <dd>Replaced C++ extension with C++ Extension Pack</dd>
     <dt>2020-11-03</dt>
     <dd>Added full support for Linux</dd>
     <dd>Added (untested) partial support for Mac OS.</dd>
