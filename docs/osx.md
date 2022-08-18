@@ -88,48 +88,24 @@ code --install-extension aaron-bond.better-comments --force
 
 ## Getting Started
 
-To get started with the project, following the instructions below.
+To get started with a project using this template, following the instructions below.
 
-1. Open any terminal.
+1. Go to this template repository's root folder and then click the "Use this template" button, or just click [this link](https://github.com/kurozawa6/amaoed-cpp-template).
 
-2. Create a new **git** directory in the home folder.
+2. Fill out the Create a new repository form as desired.
 
-```shell
-mkdir ~/git
-```
+3. Clone the newly made repository locally. One of the many ways to do this is by first clicking "Code" and then copying the HTTPS link.
 
-3. Navigate to the new **git** directory.
+4. Open Visual Studio Code. If there's already an active open folder, open a new folder via CTRL + SHIFT + N.
 
-```shell
-cd ~/git
-```
+5. Go to Explorer or Source Countrol by clicking its respective button (usually at the top left) or via CTRL + SHIFT + E or CTRL + SHIFT + G.
 
-4. Clone the remote repository.
+6. Click "Clone Repository".
 
-```shell
-git clone https://github.com/jmadoremos/amaoed-cpp-template.git --depth 1
-```
+7. Paste the HTTPS link from #3 and press Enter. You should now see the cloned repository as your active folder.
 
-> Alternatively, you may opt to clone the fork you created in your account. If you execute the command above, you need to manually delete the **amaoed-cpp-template/** folder before executing the command below to avoid or fix the conflict with the initial `git clone` command.
+8. To try compiling and running a sample program, go to the src/sample folder and click main.cpp.
 
-```shell
-git clone https://github.com/YOUR_GITHUB_ACCOUNT/amaoed-cpp-template.git --depth 1
-```
+9. Click "Run" and then "Run Without Debugging" or press CTRL+F5.
 
-> Alternatively, if you already have the local repository before, execute the commands below to get the latest copy from the remote repository (i.e., GitHub). This will retrieve the latest copy from the source of the `git clone` command.
-
-```shell
-cd ~/git/amaoed-cpp-template/
-
-git fetch
-
-git checkout master
-
-git pull
-```
-
-5. Confirm the setup by listing all files in your local repository.
-
-```shell
-ls ~/git/amaoed-cpp-template/
-```
+10. You should now see the program run in the integrated terminal.
