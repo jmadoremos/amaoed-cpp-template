@@ -108,4 +108,4 @@ To get started with a project using this template, following the instructions be
 
 9. Click "Run" and then "Run Without Debugging" or press CTRL+F5.
 
-10. You should now see the program run in the integrated terminal.
+10. You should now see the program run in the integrated terminal. If you don't see it, make sure the active tab is "TERMINAL" and not "DEBUG CONSOLE.
