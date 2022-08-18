@@ -4,41 +4,35 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
+            "type": "cppbuild",
             "label": "[g++] Compile for Windows",
-            "command": "C:/ProgramData/chocolatey/bin/g++.exe",
-            "args": [ "-g", "-o", "build/main", "src/main.cpp" ],
-            "problemMatcher": ["$gcc"],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            }
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [ "-g", "-o", "${workspaceFolder}/build/main.exe", "${file}" ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
         },
         {
-            "type": "shell",
+            "type": "cppbuild",
             "label": "[g++] Compile for Linux",
             "command": "/usr/bin/g++",
-            "args": [ "-g", "-o", "build/main", "src/main.cpp" ],
-            "problemMatcher": ["$gcc"],
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": true,
-                "clear": false
-            }
+            "args": [ "-g", "-o", "${workspaceFolder}/build/main.out", "${file}" ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/g++"
         },
         {
-            "type": "shell",
+            "type": "cppbuild",
             "label": "[clang++] Compile for Mac OS",
             "command": "/usr/bin/clang++",
-            "args": [ "-std=c++17", "-stdlib=libc++", "-g", "-o", "build/main", "src/main.cpp" ],
-            "problemMatcher": ["$gcc"],
+            "args": [ "-std=c++17", "-stdlib=libc++", "-g", "-o", "${workspaceFolder}/build/main.app", "${file}" ],
+            "problemMatcher": [
+                "$gcc"
+            ],
             "presentation": {
                 "echo": true,
                 "reveal": "always",

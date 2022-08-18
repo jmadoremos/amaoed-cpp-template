@@ -5,13 +5,14 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/main",
+            "program": "${workspaceFolder}/build/main",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceFolder}/build/",
             "environment": [],
             "externalConsole": false,
             "linux": {
+                "program": "${workspaceFolder}/build/main.out",
                 "MIMode": "gdb",
                 "setupCommands": [
                     {
@@ -24,10 +25,12 @@
                 "miDebuggerPath": "/usr/bin/gdb"
             },
             "osx": {
+                "program": "${workspaceFolder}/build/main.app",
                 "MIMode": "lldb",
                 "preLaunchTask": "[clang++] Compile for Mac OS"
             },
             "windows": {
+                "program": "${workspaceFolder}/build/main.exe",
                 "MIMode": "gdb",
                 "setupCommands": [
                     {
@@ -37,14 +40,14 @@
                     }
                 ],
                 "preLaunchTask": "[g++] Compile for Windows",
-                "miDebuggerPath": "C:/ProgramData/chocolatey/bin/gdb.exe"
+                "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
             }
         },
         {
             "name": "C++ Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "${workspaceRoot}/build/main",
+            "program": "${workspaceFolder}/build/main",
             "processId": "${command:pickProcess}",
             "linux": {
                 "MIMode": "gdb",
@@ -69,7 +72,7 @@
                         "ignoreFailures": true
                     }
                 ],
-                "miDebuggerPath": "C:/ProgramData/chocolatey/bin/gdb.exe"
+                "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
             }
         }
     ]
