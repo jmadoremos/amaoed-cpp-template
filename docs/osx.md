@@ -90,7 +90,7 @@ code --install-extension aaron-bond.better-comments --force
 
 To get started with a project using this template, following the instructions below.
 
-1. Go to this template repository's root folder and then click the "Use this template" button, or just click [this link](https://github.com/kurozawa6/amaoed-cpp-template).
+1. Go to this template repository's root folder and then click the "Use this template" button, or just click [this link](https://github.com/kurozawa6/amaoed-cpp-template/generate).
 
 2. Fill out the Create a new repository form as desired.
 
