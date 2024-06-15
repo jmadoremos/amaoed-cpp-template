@@ -1,0 +1,43 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "amaoed-cpp-template",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "devcontainer",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"shutdownAction": "stopCompose",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+	},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	//"forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "bash -i .devcontainer/scripts/container-postcreate.sh",
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+                // EditorConfig Support for Visual Studio Code
+				"EditorConfig.EditorConfig",
+                // Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
+                "bierner.markdown-mermaid",
+                // Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights...
+				"eamodio.gitlens",
+                // Popular extensions for C++ development in Visual Studio Code.
+                "ms-vscode.cpptools-extension-pack",
+                // AI-assisted development
+				"visualstudioexptteam.vscodeintellicode",
+                // All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+                "yzhang.markdown-all-in-one"
+			]
+		}
+	},
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	//"remoteUser": "root"
+	// Mount local files and directories to the container.
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+	]
+}

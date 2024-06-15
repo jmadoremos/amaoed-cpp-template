@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        // Product Icon Theme with Material Icons for VS Code
+        "PKief.material-product-icons",
+        // Improve your code commenting by annotating with alert, informational, TODOs, and more!
+        "aaron-bond.better-comments",
+        // Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+        "ms-vscode-remote.remote-containers",
+        // Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+        "ms-vscode-remote.remote-wsl",
+        // A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and ...
+        "sdras.night-owl",
+        // Icons for Visual Studio Code
+        "vscode-icons-team.vscode-icons",
+    ],
+    "unwantedRecommendations": []
+}
