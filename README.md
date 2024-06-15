@@ -2,32 +2,25 @@
 
 This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
 
-## Instructions
+**Table of Contents**
 
-The instructions defined for this git repository depends on the operating system being used. Refer to one of the following documentations for the details:
-
-* [C++ Programming Language for Windows](./docs/windows.md)
-
-* [C++ Programming Language for Linux](./docs/linux.md)
-
-* [C++ Programming Language for Mac OS](./docs/osx.md)
-
-## Reminder
-
-In general, there should be no reason to modify or delete any of the following:
-
-* **.vscode/** directory and files within
-
-* **build/** directory and files within
-
-* **docs/** directory and files within
-
-* **src/_pause.h** library
-
-* **.editorconfig** file
-
-* **.gitignore** file
-
-* [**CHANGELOG**](/CHANGELOG.md)
-
-* [**README**](/README.md)
+- [Getting Started](docs/getting-started/README.md)
+  - [Dev Container](docs/getting-started/dev-container/README.md)
+    - [Installing the Pre-requisites](docs/getting-started/dev-container/README.md#installing-the-pre-requisites)
+      - [Windows](docs/getting-started/dev-container/windows.md)
+      - [macOS](docs/getting-started/dev-container/osx.md)
+      - [Linux](docs/getting-started/dev-container/linux.md)
+    - [Configuring the Visual Studio Code](docs/getting-started/dev-container/README.md#configuring-the-visual-studio-code)
+    - [Cloning the Git Repository](docs/getting-started/dev-container/README.md#cloning-the-git-repository)
+    - [Opening in Dev Container](docs/getting-started/dev-container/README.md#opening-in-dev-container)
+  - [Bare Metal](docs/getting-started/bare-metal/README.md)
+    - [Installing the Pre-requisites](docs/getting-started/bare-metal/README.md#installing-the-pre-requisites)
+      - [Windows](docs/getting-started/bare-metal/windows.md)
+      - [macOS](docs/getting-started/bare-metal/osx.md)
+      - [Linux](docs/getting-started/bare-metal/linux.md)
+    - [Configuring the Visual Studio Code](docs/getting-started/bare-metal/README.md#configuring-the-visual-studio-code)
+    - [Cloning the Git Repository](docs/getting-started/bare-metal/README.md#cloning-the-git-repository)
+    - [Opening in Bare Metal](docs/getting-started/bare-metal/README.md#opening-in-bare-metal)
+- [Maintenace](docs/maintenance/README.md)
+  - [Updating the CMake Version](docs/maintenance/README.md#updating-the-cmake-version)
+  - [Updating the Dev Container Image](docs/maintenance/README.md#updating-the-dev-container-image)
